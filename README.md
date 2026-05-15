@@ -66,4 +66,4 @@ app/src/main/java/com/gramakhata/app/
 
 ---
 
-*Grama-Khata • April 2026 • Empowering Village Commerce Through Technology*
+*Grama-Khata • May 2026 • Empowering Village Commerce Through Technology*
