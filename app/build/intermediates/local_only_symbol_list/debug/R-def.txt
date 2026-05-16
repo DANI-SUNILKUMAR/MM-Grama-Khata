@@ -2,6 +2,11 @@ R_DEF: Internal format may change without notice
 local
 color amber_mid
 color amber_mid_bg
+<<<<<<< HEAD
+=======
+color avatar_bg
+color avatar_text
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
 color bg_card
 color bg_header
 color bg_main
@@ -10,7 +15,14 @@ color brand_accent
 color brand_primary
 color brand_primary_dark
 color brand_primary_light
+<<<<<<< HEAD
 color divider
+=======
+color dashboard_card_bg
+color divider
+color fab_color
+color fab_text
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
 color green_paid
 color green_paid_bg
 color purple_200
@@ -19,6 +31,11 @@ color purple_700
 color red_high
 color red_high_bg
 color ripple
+<<<<<<< HEAD
+=======
+color search_bg
+color search_border
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
 color teal_200
 color teal_700
 color text_hint
@@ -32,6 +49,10 @@ drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_payment
 drawable ic_person_placeholder
+<<<<<<< HEAD
+=======
+id action_logout
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
 id appBarLayout
 id btnCamera
 id btnCredit
@@ -39,7 +60,10 @@ id btnDelete
 id btnDialogIcon
 id btnGallery
 id btnLogin
+<<<<<<< HEAD
 id btnLogout
+=======
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
 id btnPayment
 id btnRegister
 id btnRemind
@@ -47,13 +71,22 @@ id btnSave
 id btnShareReport
 id cardDueBadge
 id cardInitials
+<<<<<<< HEAD
 id cbIsAdmin
 id etAmount
+=======
+id etAmount
+id etConfirmPassword
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
 id etMobile
 id etName
 id etNote
 id etPassword
 id etSearch
+<<<<<<< HEAD
+=======
+id etShopName
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
 id etUsername
 id fabAddCustomer
 id ivAvatar
@@ -68,18 +101,31 @@ id tvDate
 id tvDebtorCount
 id tvDialogTitle
 id tvEmptyState
+<<<<<<< HEAD
 id tvInitials
 id tvLogin
+=======
+id tvGoToLogin
+id tvGoToRegister
+id tvInitials
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
 id tvMobile
 id tvNetDue
 id tvNoTransactions
 id tvNote
+<<<<<<< HEAD
 id tvRegister
+=======
+id tvShopName
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
 id tvTotalCredit
 id tvTotalDue
 id tvTotalPaid
 id tvTransactionType
+<<<<<<< HEAD
 id tvUserRole
+=======
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
 layout activity_add_customer
 layout activity_customer_detail
 layout activity_login
@@ -89,6 +135,10 @@ layout activity_splash
 layout dialog_add_transaction
 layout item_customer
 layout item_transaction
+<<<<<<< HEAD
+=======
+menu main_menu
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
 mipmap ic_launcher
 mipmap ic_launcher_round
 string add_customer

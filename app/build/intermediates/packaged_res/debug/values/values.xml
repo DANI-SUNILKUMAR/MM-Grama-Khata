@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+<<<<<<< HEAD
     <color name="amber_mid">#C07830</color>
     <color name="amber_mid_bg">#FFF4E0</color>
     <color name="bg_card">#FFFFFF</color>
@@ -24,6 +25,39 @@
     <color name="text_hint">#AAAAAA</color>
     <color name="text_on_primary">#FFFFFF</color>
     <color name="text_primary">#1A1A1A</color>
+=======
+    <color name="amber_mid">#C58B00</color>
+    <color name="amber_mid_bg">#FFF8E1</color>
+    <color name="avatar_bg">#0B8F3C</color>
+    <color name="avatar_text">#FFFFFF</color>
+    <color name="bg_card">#FFFFFF</color>
+    <color name="bg_header">#0B8F3C</color>
+    <color name="bg_main">#F4F7F4</color>
+    <color name="black">#FF000000</color>
+    <color name="brand_accent">#22C55E</color>
+    <color name="brand_primary">#0B8F3C</color>
+    <color name="brand_primary_dark">#06692C</color>
+    <color name="brand_primary_light">#DDF5E5</color>
+    <color name="dashboard_card_bg">#FFFFFF</color>
+    <color name="divider">#E0E0E0</color>
+    <color name="fab_color">#0B8F3C</color>
+    <color name="fab_text">#FFFFFF</color>
+    <color name="green_paid">#2E7D32</color>
+    <color name="green_paid_bg">#E8F5E9</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="red_high">#D32F2F</color>
+    <color name="red_high_bg">#FDECEC</color>
+    <color name="ripple">#200B8F3C</color>
+    <color name="search_bg">#FFFFFF</color>
+    <color name="search_border">#D6D6D6</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="text_hint">#9E9E9E</color>
+    <color name="text_on_primary">#FFFFFF</color>
+    <color name="text_primary">#1C1C1C</color>
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
     <color name="text_secondary">#666666</color>
     <color name="white">#FFFFFFFF</color>
     <string name="add_customer">Add Customer</string>

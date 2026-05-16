@@ -7,6 +7,10 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+<<<<<<< HEAD
+=======
+import androidx.appcompat.widget.Toolbar;
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
 import androidx.coordinatorlayout.widget.CoordinatorLayout;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewbinding.ViewBinding;
@@ -28,9 +32,12 @@ public final class ActivityMainBinding implements ViewBinding {
   public final AppBarLayout appBarLayout;
 
   @NonNull
+<<<<<<< HEAD
   public final MaterialButton btnLogout;
 
   @NonNull
+=======
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
   public final MaterialButton btnShareReport;
 
   @NonNull
@@ -43,12 +50,19 @@ public final class ActivityMainBinding implements ViewBinding {
   public final RecyclerView rvCustomers;
 
   @NonNull
+<<<<<<< HEAD
+=======
+  public final Toolbar toolbar;
+
+  @NonNull
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
   public final TextView tvDebtorCount;
 
   @NonNull
   public final TextView tvEmptyState;
 
   @NonNull
+<<<<<<< HEAD
   public final TextView tvTotalDue;
 
   @NonNull
@@ -63,14 +77,36 @@ public final class ActivityMainBinding implements ViewBinding {
     this.rootView = rootView;
     this.appBarLayout = appBarLayout;
     this.btnLogout = btnLogout;
+=======
+  public final TextView tvShopName;
+
+  @NonNull
+  public final TextView tvTotalDue;
+
+  private ActivityMainBinding(@NonNull CoordinatorLayout rootView,
+      @NonNull AppBarLayout appBarLayout, @NonNull MaterialButton btnShareReport,
+      @NonNull TextInputEditText etSearch, @NonNull ExtendedFloatingActionButton fabAddCustomer,
+      @NonNull RecyclerView rvCustomers, @NonNull Toolbar toolbar, @NonNull TextView tvDebtorCount,
+      @NonNull TextView tvEmptyState, @NonNull TextView tvShopName, @NonNull TextView tvTotalDue) {
+    this.rootView = rootView;
+    this.appBarLayout = appBarLayout;
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
     this.btnShareReport = btnShareReport;
     this.etSearch = etSearch;
     this.fabAddCustomer = fabAddCustomer;
     this.rvCustomers = rvCustomers;
+<<<<<<< HEAD
     this.tvDebtorCount = tvDebtorCount;
     this.tvEmptyState = tvEmptyState;
     this.tvTotalDue = tvTotalDue;
     this.tvUserRole = tvUserRole;
+=======
+    this.toolbar = toolbar;
+    this.tvDebtorCount = tvDebtorCount;
+    this.tvEmptyState = tvEmptyState;
+    this.tvShopName = tvShopName;
+    this.tvTotalDue = tvTotalDue;
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
   }
 
   @Override
@@ -106,12 +142,15 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+<<<<<<< HEAD
       id = R.id.btnLogout;
       MaterialButton btnLogout = ViewBindings.findChildViewById(rootView, id);
       if (btnLogout == null) {
         break missingId;
       }
 
+=======
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
       id = R.id.btnShareReport;
       MaterialButton btnShareReport = ViewBindings.findChildViewById(rootView, id);
       if (btnShareReport == null) {
@@ -136,6 +175,15 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+<<<<<<< HEAD
+=======
+      id = R.id.toolbar;
+      Toolbar toolbar = ViewBindings.findChildViewById(rootView, id);
+      if (toolbar == null) {
+        break missingId;
+      }
+
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
       id = R.id.tvDebtorCount;
       TextView tvDebtorCount = ViewBindings.findChildViewById(rootView, id);
       if (tvDebtorCount == null) {
@@ -148,12 +196,22 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
+<<<<<<< HEAD
+=======
+      id = R.id.tvShopName;
+      TextView tvShopName = ViewBindings.findChildViewById(rootView, id);
+      if (tvShopName == null) {
+        break missingId;
+      }
+
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
       id = R.id.tvTotalDue;
       TextView tvTotalDue = ViewBindings.findChildViewById(rootView, id);
       if (tvTotalDue == null) {
         break missingId;
       }
 
+<<<<<<< HEAD
       id = R.id.tvUserRole;
       TextView tvUserRole = ViewBindings.findChildViewById(rootView, id);
       if (tvUserRole == null) {
@@ -163,6 +221,11 @@ public final class ActivityMainBinding implements ViewBinding {
       return new ActivityMainBinding((CoordinatorLayout) rootView, appBarLayout, btnLogout,
           btnShareReport, etSearch, fabAddCustomer, rvCustomers, tvDebtorCount, tvEmptyState,
           tvTotalDue, tvUserRole);
+=======
+      return new ActivityMainBinding((CoordinatorLayout) rootView, appBarLayout, btnShareReport,
+          etSearch, fabAddCustomer, rvCustomers, toolbar, tvDebtorCount, tvEmptyState, tvShopName,
+          tvTotalDue);
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

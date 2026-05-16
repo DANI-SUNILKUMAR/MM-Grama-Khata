@@ -4,7 +4,11 @@
             "outputFile": "com.gramakhata.app-mergeDebugResources-52:/values-ldltr-v21/values-ldltr-v21.xml",
             "map": [
                 {
+<<<<<<< HEAD
                     "source": "C:\\Users\\HP\\AndroidStudioProjects\\caches\\9.0-milestone-1\\transforms\\c1270eebeafb8df35191fc77125ab53f\\transformed\\appcompat-1.6.1\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+=======
+                    "source": "C:\\Users\\HP\\AndroidStudioProjects\\caches\\transforms-3\\3f64e221becacbf4fcd2f5eb5f6f0053\\transformed\\appcompat-1.6.1\\res\\values-ldltr-v21\\values-ldltr-v21.xml",
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

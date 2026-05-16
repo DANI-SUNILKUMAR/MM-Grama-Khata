@@ -64,6 +64,13 @@
         "source": "com.gramakhata.app-main-56:/layout/activity_add_customer.xml"
     },
     {
+<<<<<<< HEAD
+=======
+        "merged": "com.gramakhata.app-merged_res-54:/menu_main_menu.xml.flat",
+        "source": "com.gramakhata.app-main-56:/menu/main_menu.xml"
+    },
+    {
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
         "merged": "com.gramakhata.app-merged_res-54:/mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "com.gramakhata.app-main-56:/mipmap-anydpi-v26/ic_launcher.xml"
     },

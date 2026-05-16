@@ -4,7 +4,21 @@
             "outputFile": "com.gramakhata.app-mergeDebugResources-52:/values-v16/values-v16.xml",
             "map": [
                 {
+<<<<<<< HEAD
                     "source": "C:\\Users\\HP\\AndroidStudioProjects\\caches\\9.0-milestone-1\\transforms\\c1270eebeafb8df35191fc77125ab53f\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
+=======
+                    "source": "C:\\Users\\HP\\AndroidStudioProjects\\caches\\transforms-3\\403587a9212e5dd0e7d96926197172ff\\transformed\\core-1.12.0\\res\\values-v16\\values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\HP\\AndroidStudioProjects\\caches\\transforms-3\\3f64e221becacbf4fcd2f5eb5f6f0053\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -21,6 +35,7 @@
                         "endColumns": "12",
                         "endOffsets": "289"
                     }
+<<<<<<< HEAD
                 },
                 {
                     "source": "C:\\Users\\HP\\AndroidStudioProjects\\caches\\9.0-milestone-1\\transforms\\63c1fb133074ae41ad0632ebcf208ff3\\transformed\\core-1.12.0\\res\\values-v16\\values-v16.xml",
@@ -31,6 +46,8 @@
                         "endColumns": "65",
                         "endOffsets": "116"
                     }
+=======
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
                 }
             ]
         }

@@ -4,7 +4,11 @@
             "outputFile": "com.gramakhata.app-mergeDebugResources-52:/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
+<<<<<<< HEAD
                     "source": "C:\\Users\\HP\\AndroidStudioProjects\\caches\\9.0-milestone-1\\transforms\\c1270eebeafb8df35191fc77125ab53f\\transformed\\appcompat-1.6.1\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+=======
+                    "source": "C:\\Users\\HP\\AndroidStudioProjects\\caches\\transforms-3\\3f64e221becacbf4fcd2f5eb5f6f0053\\transformed\\appcompat-1.6.1\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -14,7 +18,11 @@
                     }
                 },
                 {
+<<<<<<< HEAD
                     "source": "C:\\Users\\HP\\AndroidStudioProjects\\caches\\9.0-milestone-1\\transforms\\8761c50d5602d837999332c8fae3864e\\transformed\\material-1.11.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+=======
+                    "source": "C:\\Users\\HP\\AndroidStudioProjects\\caches\\transforms-3\\4fd5e1721ff219a29483b10e688e4704\\transformed\\material-1.11.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,10,11,12,13,14",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",

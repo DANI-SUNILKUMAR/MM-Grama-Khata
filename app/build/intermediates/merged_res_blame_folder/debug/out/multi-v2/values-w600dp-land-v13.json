@@ -4,7 +4,11 @@
             "outputFile": "com.gramakhata.app-mergeDebugResources-52:/values-w600dp-land-v13/values-w600dp-land-v13.xml",
             "map": [
                 {
+<<<<<<< HEAD
                     "source": "C:\\Users\\HP\\AndroidStudioProjects\\caches\\9.0-milestone-1\\transforms\\8761c50d5602d837999332c8fae3864e\\transformed\\material-1.11.0\\res\\values-w600dp-land-v13\\values-w600dp-land-v13.xml",
+=======
+                    "source": "C:\\Users\\HP\\AndroidStudioProjects\\caches\\transforms-3\\4fd5e1721ff219a29483b10e688e4704\\transformed\\material-1.11.0\\res\\values-w600dp-land-v13\\values-w600dp-land-v13.xml",
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

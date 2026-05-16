@@ -4,6 +4,7 @@
     android:height="108dp"
     android:viewportWidth="108"
     android:viewportHeight="108">
+<<<<<<< HEAD
     <path
         android:fillColor="#C0622A"
         android:pathData="M0,0h108v108h-108z"/>
@@ -20,3 +21,114 @@
     <rect android:x="34dp" android:y="57dp" android:width="25dp" android:height="3dp" android:fillColor="#C0622A"/>
     <rect android:x="34dp" android:y="67dp" android:width="20dp" android:height="3dp" android:fillColor="#C0622A"/>
 </vector>
+=======
+
+    <!-- Background -->
+    <path
+        android:fillColor="#EAF5EC"
+        android:pathData="M0,0h108v108h-108z"/>
+
+    <!-- Main Document -->
+    <path
+        android:fillColor="#0B6B2E"
+        android:pathData="
+            M24,18
+            h46
+            a6,6 0 0 1 6,6
+            v60
+            a6,6 0 0 1 -6,6
+            h-46
+            a6,6 0 0 1 -6,-6
+            v-60
+            a6,6 0 0 1 6,-6z"/>
+
+    <!-- Fold Corner -->
+    <path
+        android:fillColor="#9ED08F"
+        android:pathData="
+            M58,18
+            h12
+            a6,6 0 0 1 6,6
+            v12
+            z"/>
+
+    <!-- White Text Lines -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M32,38 h30 v4 h-30 z"/>
+
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M32,50 h30 v4 h-30 z"/>
+
+    <!-- Green Accent Lines -->
+    <path
+        android:fillColor="#B7E4A8"
+        android:pathData="M32,62 h22 v4 h-22 z"/>
+
+    <path
+        android:fillColor="#B7E4A8"
+        android:pathData="M32,74 h16 v4 h-16 z"/>
+
+    <!-- Pencil Body -->
+    <path
+        android:fillColor="#F4C542"
+        android:pathData="
+        M54,72
+        L74,52
+        L82,60
+        L62,80
+        Z"/>
+
+    <!-- Pencil Dark Side -->
+    <path
+        android:fillColor="#D9A72D"
+        android:pathData="
+        M68,58
+        L74,52
+        L82,60
+        L76,66
+        Z"/>
+
+    <!-- Pencil Wood -->
+    <path
+        android:fillColor="#F5DEB3"
+        android:pathData="
+        M50,76
+        L56,70
+        L64,78
+        L56,82
+        Z"/>
+
+    <!-- Pencil Tip -->
+    <path
+        android:fillColor="#2B2B2B"
+        android:pathData="
+        M48,80
+        L53,73
+        L59,80
+        L54,83
+        Z"/>
+
+    <!-- Metal Ring -->
+    <path
+        android:fillColor="#E0E0E0"
+        android:pathData="
+        M74,52
+        L78,48
+        L86,56
+        L82,60
+        Z"/>
+
+    <!-- Eraser -->
+    <path
+        android:fillColor="#156D2F"
+        android:pathData="
+        M78,48
+        L84,42
+        L92,50
+        L86,56
+        Z"/>
+
+</vector>
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172

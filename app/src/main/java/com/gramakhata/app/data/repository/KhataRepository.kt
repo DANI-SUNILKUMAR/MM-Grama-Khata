@@ -6,19 +6,25 @@ import com.gramakhata.app.data.db.GramaKhataDatabase
 import com.gramakhata.app.data.model.Customer
 import com.gramakhata.app.data.model.Transaction
 import com.gramakhata.app.data.model.TransactionType
+<<<<<<< HEAD
 import com.gramakhata.app.data.model.User
+=======
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
 
 class KhataRepository(context: Context) {
 
     private val db = GramaKhataDatabase.getDatabase(context)
     private val customerDao = db.customerDao()
     private val transactionDao = db.transactionDao()
+<<<<<<< HEAD
     private val userDao = db.userDao()
 
     // User operations
     suspend fun registerUser(user: User): Long = userDao.insert(user)
     suspend fun getUserByUsername(username: String): User? = userDao.getUserByUsername(username)
     fun getUserById(userId: Long) = userDao.getUserById(userId)
+=======
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
 
     // Customer operations
     fun getAllActiveCustomers(): LiveData<List<Customer>> = customerDao.getAllActiveCustomers()

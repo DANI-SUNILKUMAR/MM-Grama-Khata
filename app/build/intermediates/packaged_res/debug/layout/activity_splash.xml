@@ -23,14 +23,20 @@
             app:cardCornerRadius="60dp"
             app:cardElevation="16dp"
             app:cardBackgroundColor="#FFFFFF">
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="📒"
                 android:textSize="56sp"
                 android:gravity="center"/>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
         </androidx.cardview.widget.CardView>
 
         <TextView
@@ -48,7 +54,11 @@
             android:layout_height="wrap_content"
             android:text="ग्राम खाता • Your Digital Ledger"
             android:textSize="14sp"
+<<<<<<< HEAD
             android:textColor="#FFD6DE"
+=======
+            android:textColor="#B8E2F2"
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
             android:layout_marginTop="8dp"/>
 
     </LinearLayout>

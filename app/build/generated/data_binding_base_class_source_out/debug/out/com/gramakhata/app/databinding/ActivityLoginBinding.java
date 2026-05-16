@@ -4,13 +4,21 @@ package com.gramakhata.app.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+<<<<<<< HEAD
 import android.widget.Button;
 import android.widget.LinearLayout;
+=======
+import android.widget.ScrollView;
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
+<<<<<<< HEAD
+=======
+import com.google.android.material.button.MaterialButton;
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
 import com.google.android.material.textfield.TextInputEditText;
 import com.gramakhata.app.R;
 import java.lang.NullPointerException;
@@ -19,10 +27,17 @@ import java.lang.String;
 
 public final class ActivityLoginBinding implements ViewBinding {
   @NonNull
+<<<<<<< HEAD
   private final LinearLayout rootView;
 
   @NonNull
   public final Button btnLogin;
+=======
+  private final ScrollView rootView;
+
+  @NonNull
+  public final MaterialButton btnLogin;
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
 
   @NonNull
   public final TextInputEditText etPassword;
@@ -31,21 +46,37 @@ public final class ActivityLoginBinding implements ViewBinding {
   public final TextInputEditText etUsername;
 
   @NonNull
+<<<<<<< HEAD
   public final TextView tvRegister;
 
   private ActivityLoginBinding(@NonNull LinearLayout rootView, @NonNull Button btnLogin,
       @NonNull TextInputEditText etPassword, @NonNull TextInputEditText etUsername,
       @NonNull TextView tvRegister) {
+=======
+  public final TextView tvGoToRegister;
+
+  private ActivityLoginBinding(@NonNull ScrollView rootView, @NonNull MaterialButton btnLogin,
+      @NonNull TextInputEditText etPassword, @NonNull TextInputEditText etUsername,
+      @NonNull TextView tvGoToRegister) {
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
     this.rootView = rootView;
     this.btnLogin = btnLogin;
     this.etPassword = etPassword;
     this.etUsername = etUsername;
+<<<<<<< HEAD
     this.tvRegister = tvRegister;
+=======
+    this.tvGoToRegister = tvGoToRegister;
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
   }
 
   @Override
   @NonNull
+<<<<<<< HEAD
   public LinearLayout getRoot() {
+=======
+  public ScrollView getRoot() {
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
     return rootView;
   }
 
@@ -71,7 +102,11 @@ public final class ActivityLoginBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.btnLogin;
+<<<<<<< HEAD
       Button btnLogin = ViewBindings.findChildViewById(rootView, id);
+=======
+      MaterialButton btnLogin = ViewBindings.findChildViewById(rootView, id);
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
       if (btnLogin == null) {
         break missingId;
       }
@@ -88,6 +123,7 @@ public final class ActivityLoginBinding implements ViewBinding {
         break missingId;
       }
 
+<<<<<<< HEAD
       id = R.id.tvRegister;
       TextView tvRegister = ViewBindings.findChildViewById(rootView, id);
       if (tvRegister == null) {
@@ -96,6 +132,16 @@ public final class ActivityLoginBinding implements ViewBinding {
 
       return new ActivityLoginBinding((LinearLayout) rootView, btnLogin, etPassword, etUsername,
           tvRegister);
+=======
+      id = R.id.tvGoToRegister;
+      TextView tvGoToRegister = ViewBindings.findChildViewById(rootView, id);
+      if (tvGoToRegister == null) {
+        break missingId;
+      }
+
+      return new ActivityLoginBinding((ScrollView) rootView, btnLogin, etPassword, etUsername,
+          tvGoToRegister);
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

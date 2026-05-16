@@ -88,8 +88,12 @@
             android:layout_marginStart="8dp"
             android:src="@android:drawable/ic_menu_delete"
             android:background="?attr/selectableItemBackgroundBorderless"
+<<<<<<< HEAD
             app:tint="?attr/colorOnSurface"/>
 <!--            app:tint="@android:color/darker_gray"/>-->
+=======
+            app:tint="@android:color/darker_gray"/>
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
 
     </LinearLayout>
 

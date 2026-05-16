@@ -31,27 +31,42 @@ public final class GramaKhataDatabase_Impl extends GramaKhataDatabase {
 
   private volatile TransactionDao _transactionDao;
 
+<<<<<<< HEAD
   private volatile UserDao _userDao;
 
   @Override
   @NonNull
   protected SupportSQLiteOpenHelper createOpenHelper(@NonNull final DatabaseConfiguration config) {
     final SupportSQLiteOpenHelper.Callback _openCallback = new RoomOpenHelper(config, new RoomOpenHelper.Delegate(2) {
+=======
+  @Override
+  @NonNull
+  protected SupportSQLiteOpenHelper createOpenHelper(@NonNull final DatabaseConfiguration config) {
+    final SupportSQLiteOpenHelper.Callback _openCallback = new RoomOpenHelper(config, new RoomOpenHelper.Delegate(1) {
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
       @Override
       public void createAllTables(@NonNull final SupportSQLiteDatabase db) {
         db.execSQL("CREATE TABLE IF NOT EXISTS `customers` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `name` TEXT NOT NULL, `mobile` TEXT NOT NULL, `photoUri` TEXT, `shopName` TEXT NOT NULL, `totalCredit` REAL NOT NULL, `totalPaid` REAL NOT NULL, `createdAt` INTEGER NOT NULL, `lastUpdated` INTEGER NOT NULL, `isSettled` INTEGER NOT NULL)");
         db.execSQL("CREATE TABLE IF NOT EXISTS `transactions` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `customerId` INTEGER NOT NULL, `type` TEXT NOT NULL, `amount` REAL NOT NULL, `note` TEXT NOT NULL, `date` INTEGER NOT NULL, FOREIGN KEY(`customerId`) REFERENCES `customers`(`id`) ON UPDATE NO ACTION ON DELETE CASCADE )");
         db.execSQL("CREATE INDEX IF NOT EXISTS `index_transactions_customerId` ON `transactions` (`customerId`)");
+<<<<<<< HEAD
         db.execSQL("CREATE TABLE IF NOT EXISTS `users` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `username` TEXT NOT NULL, `password` TEXT NOT NULL, `role` TEXT NOT NULL)");
         db.execSQL("CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)");
         db.execSQL("INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'f06594772cc8f7544366d42d5bcc6e7b')");
+=======
+        db.execSQL("CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)");
+        db.execSQL("INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '50f6ab125a583c054861151f0a61eb55')");
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
       }
 
       @Override
       public void dropAllTables(@NonNull final SupportSQLiteDatabase db) {
         db.execSQL("DROP TABLE IF EXISTS `customers`");
         db.execSQL("DROP TABLE IF EXISTS `transactions`");
+<<<<<<< HEAD
         db.execSQL("DROP TABLE IF EXISTS `users`");
+=======
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
         final List<? extends RoomDatabase.Callback> _callbacks = mCallbacks;
         if (_callbacks != null) {
           for (RoomDatabase.Callback _callback : _callbacks) {
@@ -134,6 +149,7 @@ public final class GramaKhataDatabase_Impl extends GramaKhataDatabase {
                   + " Expected:\n" + _infoTransactions + "\n"
                   + " Found:\n" + _existingTransactions);
         }
+<<<<<<< HEAD
         final HashMap<String, TableInfo.Column> _columnsUsers = new HashMap<String, TableInfo.Column>(4);
         _columnsUsers.put("id", new TableInfo.Column("id", "INTEGER", true, 1, null, TableInfo.CREATED_FROM_ENTITY));
         _columnsUsers.put("username", new TableInfo.Column("username", "TEXT", true, 0, null, TableInfo.CREATED_FROM_ENTITY));
@@ -151,6 +167,11 @@ public final class GramaKhataDatabase_Impl extends GramaKhataDatabase {
         return new RoomOpenHelper.ValidationResult(true, null);
       }
     }, "f06594772cc8f7544366d42d5bcc6e7b", "996da8f8e8f35d4b8179e7656e44a563");
+=======
+        return new RoomOpenHelper.ValidationResult(true, null);
+      }
+    }, "50f6ab125a583c054861151f0a61eb55", "b7381d9ae90410d1b2cc703fe5c9b2a8");
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
     final SupportSQLiteOpenHelper.Configuration _sqliteConfig = SupportSQLiteOpenHelper.Configuration.builder(config.context).name(config.name).callback(_openCallback).build();
     final SupportSQLiteOpenHelper _helper = config.sqliteOpenHelperFactory.create(_sqliteConfig);
     return _helper;
@@ -161,7 +182,11 @@ public final class GramaKhataDatabase_Impl extends GramaKhataDatabase {
   protected InvalidationTracker createInvalidationTracker() {
     final HashMap<String, String> _shadowTablesMap = new HashMap<String, String>(0);
     final HashMap<String, Set<String>> _viewTables = new HashMap<String, Set<String>>(0);
+<<<<<<< HEAD
     return new InvalidationTracker(this, _shadowTablesMap, _viewTables, "customers","transactions","users");
+=======
+    return new InvalidationTracker(this, _shadowTablesMap, _viewTables, "customers","transactions");
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
   }
 
   @Override
@@ -179,7 +204,10 @@ public final class GramaKhataDatabase_Impl extends GramaKhataDatabase {
       }
       _db.execSQL("DELETE FROM `customers`");
       _db.execSQL("DELETE FROM `transactions`");
+<<<<<<< HEAD
       _db.execSQL("DELETE FROM `users`");
+=======
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
       super.setTransactionSuccessful();
     } finally {
       super.endTransaction();
@@ -199,7 +227,10 @@ public final class GramaKhataDatabase_Impl extends GramaKhataDatabase {
     final HashMap<Class<?>, List<Class<?>>> _typeConvertersMap = new HashMap<Class<?>, List<Class<?>>>();
     _typeConvertersMap.put(CustomerDao.class, CustomerDao_Impl.getRequiredConverters());
     _typeConvertersMap.put(TransactionDao.class, TransactionDao_Impl.getRequiredConverters());
+<<<<<<< HEAD
     _typeConvertersMap.put(UserDao.class, UserDao_Impl.getRequiredConverters());
+=======
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
     return _typeConvertersMap;
   }
 
@@ -245,6 +276,7 @@ public final class GramaKhataDatabase_Impl extends GramaKhataDatabase {
       }
     }
   }
+<<<<<<< HEAD
 
   @Override
   public UserDao userDao() {
@@ -259,4 +291,6 @@ public final class GramaKhataDatabase_Impl extends GramaKhataDatabase {
       }
     }
   }
+=======
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
 }

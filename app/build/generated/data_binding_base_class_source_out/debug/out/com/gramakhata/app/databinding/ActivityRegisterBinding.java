@@ -4,14 +4,22 @@ package com.gramakhata.app.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+<<<<<<< HEAD
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.LinearLayout;
+=======
+import android.widget.ScrollView;
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
+<<<<<<< HEAD
+=======
+import com.google.android.material.button.MaterialButton;
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
 import com.google.android.material.textfield.TextInputEditText;
 import com.gramakhata.app.R;
 import java.lang.NullPointerException;
@@ -20,6 +28,7 @@ import java.lang.String;
 
 public final class ActivityRegisterBinding implements ViewBinding {
   @NonNull
+<<<<<<< HEAD
   private final LinearLayout rootView;
 
   @NonNull
@@ -27,11 +36,21 @@ public final class ActivityRegisterBinding implements ViewBinding {
 
   @NonNull
   public final CheckBox cbIsAdmin;
+=======
+  private final ScrollView rootView;
+
+  @NonNull
+  public final MaterialButton btnRegister;
+
+  @NonNull
+  public final TextInputEditText etConfirmPassword;
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
 
   @NonNull
   public final TextInputEditText etPassword;
 
   @NonNull
+<<<<<<< HEAD
   public final TextInputEditText etUsername;
 
   @NonNull
@@ -46,11 +65,36 @@ public final class ActivityRegisterBinding implements ViewBinding {
     this.etPassword = etPassword;
     this.etUsername = etUsername;
     this.tvLogin = tvLogin;
+=======
+  public final TextInputEditText etShopName;
+
+  @NonNull
+  public final TextInputEditText etUsername;
+
+  @NonNull
+  public final TextView tvGoToLogin;
+
+  private ActivityRegisterBinding(@NonNull ScrollView rootView, @NonNull MaterialButton btnRegister,
+      @NonNull TextInputEditText etConfirmPassword, @NonNull TextInputEditText etPassword,
+      @NonNull TextInputEditText etShopName, @NonNull TextInputEditText etUsername,
+      @NonNull TextView tvGoToLogin) {
+    this.rootView = rootView;
+    this.btnRegister = btnRegister;
+    this.etConfirmPassword = etConfirmPassword;
+    this.etPassword = etPassword;
+    this.etShopName = etShopName;
+    this.etUsername = etUsername;
+    this.tvGoToLogin = tvGoToLogin;
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
   }
 
   @Override
   @NonNull
+<<<<<<< HEAD
   public LinearLayout getRoot() {
+=======
+  public ScrollView getRoot() {
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
     return rootView;
   }
 
@@ -76,14 +120,24 @@ public final class ActivityRegisterBinding implements ViewBinding {
     int id;
     missingId: {
       id = R.id.btnRegister;
+<<<<<<< HEAD
       Button btnRegister = ViewBindings.findChildViewById(rootView, id);
+=======
+      MaterialButton btnRegister = ViewBindings.findChildViewById(rootView, id);
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
       if (btnRegister == null) {
         break missingId;
       }
 
+<<<<<<< HEAD
       id = R.id.cbIsAdmin;
       CheckBox cbIsAdmin = ViewBindings.findChildViewById(rootView, id);
       if (cbIsAdmin == null) {
+=======
+      id = R.id.etConfirmPassword;
+      TextInputEditText etConfirmPassword = ViewBindings.findChildViewById(rootView, id);
+      if (etConfirmPassword == null) {
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
         break missingId;
       }
 
@@ -93,12 +147,22 @@ public final class ActivityRegisterBinding implements ViewBinding {
         break missingId;
       }
 
+<<<<<<< HEAD
+=======
+      id = R.id.etShopName;
+      TextInputEditText etShopName = ViewBindings.findChildViewById(rootView, id);
+      if (etShopName == null) {
+        break missingId;
+      }
+
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
       id = R.id.etUsername;
       TextInputEditText etUsername = ViewBindings.findChildViewById(rootView, id);
       if (etUsername == null) {
         break missingId;
       }
 
+<<<<<<< HEAD
       id = R.id.tvLogin;
       TextView tvLogin = ViewBindings.findChildViewById(rootView, id);
       if (tvLogin == null) {
@@ -107,6 +171,16 @@ public final class ActivityRegisterBinding implements ViewBinding {
 
       return new ActivityRegisterBinding((LinearLayout) rootView, btnRegister, cbIsAdmin,
           etPassword, etUsername, tvLogin);
+=======
+      id = R.id.tvGoToLogin;
+      TextView tvGoToLogin = ViewBindings.findChildViewById(rootView, id);
+      if (tvGoToLogin == null) {
+        break missingId;
+      }
+
+      return new ActivityRegisterBinding((ScrollView) rootView, btnRegister, etConfirmPassword,
+          etPassword, etShopName, etUsername, tvGoToLogin);
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

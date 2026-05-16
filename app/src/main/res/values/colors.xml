@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+<<<<<<< HEAD
     <!-- Brand Colors - Rose & Blush palette -->
     <color name="brand_primary">#C2607A</color>
     <color name="brand_primary_dark">#8E3A52</color>
@@ -28,6 +29,54 @@
     <!-- Others -->
     <color name="divider">#F5DDE4</color>
     <color name="ripple">#20C2607A</color>
+=======
+    <!-- Brand Colors - Ocean Blue palette -->
+    <color name="brand_primary">#0B8F3C</color>
+    <color name="brand_primary_dark">#06692C</color>
+    <color name="brand_primary_light">#DDF5E5</color>
+    <color name="brand_accent">#22C55E</color>
+
+    <!-- Backgrounds -->
+    <color name="bg_main">#F4F7F4</color>
+    <color name="bg_card">#FFFFFF</color>
+    <color name="bg_header">#0B8F3C</color>
+
+    <!-- Status Colors -->
+    <color name="red_high">#D32F2F</color>
+    <color name="red_high_bg">#FDECEC</color>
+    <color name="amber_mid">#C58B00</color>
+    <color name="amber_mid_bg">#FFF8E1</color>
+    <color name="green_paid">#2E7D32</color>
+    <color name="green_paid_bg">#E8F5E9</color>
+
+    <!-- Text -->
+    <color name="text_primary">#1C1C1C</color>
+    <color name="text_secondary">#666666</color>
+    <color name="text_hint">#9E9E9E</color>
+    <color name="text_on_primary">#FFFFFF</color>
+
+    <!-- Borders / Divider -->
+    <color name="divider">#E0E0E0</color>
+
+    <!-- Ripple -->
+    <color name="ripple">#200B8F3C</color>
+
+    <!-- Floating Button -->
+    <color name="fab_color">#0B8F3C</color>
+    <color name="fab_text">#FFFFFF</color>
+
+    <!-- Search Box -->
+    <color name="search_bg">#FFFFFF</color>
+    <color name="search_border">#D6D6D6</color>
+
+    <!-- Dashboard Cards -->
+    <color name="dashboard_card_bg">#FFFFFF</color>
+
+    <!-- Avatar Circle -->
+    <color name="avatar_bg">#0B8F3C</color>
+    <color name="avatar_text">#FFFFFF</color>
+
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
 
     <!-- Material -->
     <color name="purple_200">#FFBB86FC</color>

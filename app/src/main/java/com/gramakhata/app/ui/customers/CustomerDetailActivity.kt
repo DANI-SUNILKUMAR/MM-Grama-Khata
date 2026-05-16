@@ -13,7 +13,10 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.gramakhata.app.R
 import com.gramakhata.app.data.model.Transaction
+<<<<<<< HEAD
 import com.gramakhata.app.data.prefs.SessionManager
+=======
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
 import com.gramakhata.app.databinding.ActivityCustomerDetailBinding
 import com.gramakhata.app.databinding.DialogAddTransactionBinding
 import com.gramakhata.app.viewmodel.CustomerDetailViewModel
@@ -24,14 +27,20 @@ class CustomerDetailActivity : AppCompatActivity() {
     private lateinit var binding: ActivityCustomerDetailBinding
     private val viewModel: CustomerDetailViewModel by viewModels()
     private lateinit var transactionAdapter: TransactionAdapter
+<<<<<<< HEAD
     private lateinit var sessionManager: SessionManager
+=======
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityCustomerDetailBinding.inflate(layoutInflater)
         setContentView(binding.root)
+<<<<<<< HEAD
         
         sessionManager = SessionManager(this)
+=======
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
 
         val customerId = intent.getLongExtra("customer_id", -1L)
         if (customerId == -1L) { finish(); return }
@@ -41,12 +50,16 @@ class CustomerDetailActivity : AppCompatActivity() {
         setSupportActionBar(binding.toolbar)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
+<<<<<<< HEAD
         setupUIBasedOnRole()
+=======
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
         setupRecyclerView()
         setupObservers()
         setupListeners()
     }
 
+<<<<<<< HEAD
     private fun setupUIBasedOnRole() {
         if (!sessionManager.isAdmin()) {
             binding.btnCredit.visibility = View.GONE
@@ -66,6 +79,16 @@ class CustomerDetailActivity : AppCompatActivity() {
             } else {
                 Toast.makeText(this, "Only Admin can delete transactions", Toast.LENGTH_SHORT).show()
             }
+=======
+    private fun setupRecyclerView() {
+        transactionAdapter = TransactionAdapter { transaction ->
+            MaterialAlertDialogBuilder(this)
+                .setTitle("Delete Entry?")
+                .setMessage("This will remove the entry and recalculate balance.")
+                .setPositiveButton("Delete") { _, _ -> viewModel.deleteTransaction(transaction) }
+                .setNegativeButton("Cancel", null)
+                .show()
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
         }
         binding.rvTransactions.apply {
             layoutManager = LinearLayoutManager(this@CustomerDetailActivity)

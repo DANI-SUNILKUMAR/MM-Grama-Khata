@@ -1401,6 +1401,11 @@ color amber_mid
 color amber_mid_bg
 color androidx_core_ripple_material_light
 color androidx_core_secondary_text_default_material_light
+<<<<<<< HEAD
+=======
+color avatar_bg
+color avatar_text
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
 color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
@@ -1427,6 +1432,10 @@ color cardview_dark_background
 color cardview_light_background
 color cardview_shadow_end_color
 color cardview_shadow_start_color
+<<<<<<< HEAD
+=======
+color dashboard_card_bg
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
 color design_bottom_navigation_shadow_color
 color design_box_stroke_color
 color design_dark_default_color_background
@@ -1472,6 +1481,11 @@ color dim_foreground_material_light
 color divider
 color error_color_material_dark
 color error_color_material_light
+<<<<<<< HEAD
+=======
+color fab_color
+color fab_text
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
 color foreground_material_dark
 color foreground_material_light
 color green_paid
@@ -2147,6 +2161,11 @@ color red_high_bg
 color ripple
 color ripple_material_dark
 color ripple_material_light
+<<<<<<< HEAD
+=======
+color search_bg
+color search_border
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
 color secondary_text_default_material_dark
 color secondary_text_default_material_light
 color secondary_text_disabled_material_dark
@@ -3218,6 +3237,10 @@ id action_container
 id action_context_bar
 id action_divider
 id action_image
+<<<<<<< HEAD
+=======
+id action_logout
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
 id action_menu_divider
 id action_menu_presenter
 id action_mode_bar
@@ -3262,7 +3285,10 @@ id btnDelete
 id btnDialogIcon
 id btnGallery
 id btnLogin
+<<<<<<< HEAD
 id btnLogout
+=======
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
 id btnPayment
 id btnRegister
 id btnRemind
@@ -3275,7 +3301,10 @@ id cancel_button
 id cardDueBadge
 id cardInitials
 id carryVelocity
+<<<<<<< HEAD
 id cbIsAdmin
+=======
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
 id center
 id centerCrop
 id centerInside
@@ -3353,11 +3382,19 @@ id endToStart
 id enterAlways
 id enterAlwaysCollapsed
 id etAmount
+<<<<<<< HEAD
+=======
+id etConfirmPassword
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
 id etMobile
 id etName
 id etNote
 id etPassword
 id etSearch
+<<<<<<< HEAD
+=======
+id etShopName
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
 id etUsername
 id exitUntilCollapsed
 id expand_activities_button
@@ -3675,18 +3712,31 @@ id tvDate
 id tvDebtorCount
 id tvDialogTitle
 id tvEmptyState
+<<<<<<< HEAD
 id tvInitials
 id tvLogin
+=======
+id tvGoToLogin
+id tvGoToRegister
+id tvInitials
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
 id tvMobile
 id tvNetDue
 id tvNoTransactions
 id tvNote
+<<<<<<< HEAD
 id tvRegister
+=======
+id tvShopName
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
 id tvTotalCredit
 id tvTotalDue
 id tvTotalPaid
 id tvTransactionType
+<<<<<<< HEAD
 id tvUserRole
+=======
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
 id unchecked
 id uniform
 id unlabeled
@@ -3913,6 +3963,10 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+<<<<<<< HEAD
+=======
+menu main_menu
+>>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
