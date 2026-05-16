@@ -1,56 +1,5 @@
 # 📒 Grama-Khata — Digital Village Ledger
 
-<<<<<<< HEAD
-**Student:** Dani Sunilkumar Nagnath | **USN:** 3DG22AD011
-
----
-
-## 🚀 How to Open in Android Studio
-
-1. **Extract** the ZIP file anywhere on your computer
-2. **Open Android Studio** → Click **"Open"** (NOT "New Project")
-3. Navigate to the extracted `GramaKhata` folder → Click **OK**
-4. Wait for **Gradle Sync** to complete (first time takes 2–5 minutes, needs internet)
-5. Connect your phone or start an emulator (API 24+)
-6. Click ▶ **Run**
-
-> ⚠️ **Important:** Android Studio will auto-detect your SDK path. If it asks, point it to your Android SDK folder.
-
----
-
-## 📱 App Features
-
-| Feature | Status |
-|---------|--------|
-| Add/Edit Customer with photo | ✅ |
-| Give Credit (+) entry | ✅ |
-| Receive Payment (-) entry | ✅ |
-| Real-time Net Balance | ✅ |
-| Due Dashboard (sorted) | ✅ |
-| WhatsApp/SMS Reminder | ✅ |
-| Daily Collection Report | ✅ |
-| Search customers | ✅ |
-| Offline (Room DB) | ✅ |
-| Transaction history | ✅ |
-
----
-
-## 🗂 Project Structure
-
-```
-app/src/main/java/com/gramakhata/app/
-├── data/
-│   ├── db/         → Room Database, DAOs
-│   ├── model/      → Customer, Transaction entities
-│   └── repository/ → KhataRepository
-├── ui/
-│   ├── MainActivity.kt        → Due Dashboard
-│   ├── SplashActivity.kt      → Splash screen
-=======
-<p align="center">
-  <img src="screenshots/banner.png" width="100%" alt="Grama-Khata Banner"/>
-</p>
-
 <p align="center">
   <img src="https://img.shields.io/badge/Platform-Android-green?style=for-the-badge"/>
   <img src="https://img.shields.io/badge/Language-Kotlin-blue?style=for-the-badge"/>
@@ -65,42 +14,42 @@ app/src/main/java/com/gramakhata/app/
 
 **Grama-Khata** is a modern Android application developed to digitize traditional village ledger systems used by small businesses, shopkeepers, and rural vendors.
 
-The application helps users:
+The application helps users to:
 - Maintain customer records
 - Track credit/debit transactions
 - Monitor pending dues
 - Generate collection reports
-- Send payment reminders through WhatsApp/SMS
+- Send payment reminders via WhatsApp/SMS
 
-The app is designed with an **offline-first architecture** using **Room Database**, making it suitable for rural areas with limited internet connectivity.
+The app follows an **offline-first architecture** using **Room Database**, making it reliable even in low internet connectivity areas.
 
 ---
 
 # 🎯 Problem Statement
 
-Traditional village bookkeeping methods rely heavily on paper records, which often lead to:
+Traditional village bookkeeping systems rely heavily on paper records, which can lead to:
 - Data loss
 - Miscalculations
-- Difficult tracking of dues
+- Difficulty tracking dues
 - Poor transaction management
 
-Grama-Khata provides a secure and efficient digital alternative to simplify rural financial management.
+Grama-Khata provides a secure and efficient digital solution for rural financial management.
 
 ---
 
-# ✨ Key Features
+# ✨ Features
 
 | Feature | Description | Status |
 |---------|-------------|--------|
-| 👤 Customer Management | Add/Edit/Delete customer details with photos | ✅ |
+| 👤 Customer Management | Add/Edit/Delete customer records with photos | ✅ |
 | 💰 Credit Entry | Record money given on credit | ✅ |
 | 💸 Payment Collection | Track received payments | ✅ |
-| 📊 Net Balance Calculation | Real-time due balance updates | ✅ |
-| 📈 Due Dashboard | Displays pending balances in sorted order | ✅ |
-| 🔍 Search Customers | Quickly search customer records | ✅ |
+| 📊 Net Balance | Real-time due balance calculation | ✅ |
+| 📈 Due Dashboard | Sorted pending balances view | ✅ |
+| 🔍 Customer Search | Quick customer lookup | ✅ |
 | 📲 WhatsApp/SMS Reminder | Send payment reminders instantly | ✅ |
-| 📅 Daily Collection Report | Track daily transactions | ✅ |
-| 🧾 Transaction History | Complete history of all records | ✅ |
+| 📅 Daily Collection Report | Daily transaction tracking | ✅ |
+| 🧾 Transaction History | Complete customer history | ✅ |
 | 📴 Offline Support | Fully functional without internet | ✅ |
 
 ---
@@ -109,19 +58,18 @@ Grama-Khata provides a secure and efficient digital alternative to simplify rura
 
 | Technology | Purpose |
 |------------|---------|
-| **Kotlin** | Android App Development |
-| **Room Database** | Offline Local Storage |
-| **MVVM Architecture** | Scalable Architecture Pattern |
-| **LiveData & ViewModel** | State Management |
-| **RecyclerView** | Dynamic Lists |
-| **Material Design 3** | Modern UI Design |
-| **CardView** | UI Components |
+| Kotlin | Android App Development |
+| Room Database | Offline Local Storage |
+| MVVM Architecture | Scalable App Architecture |
+| LiveData & ViewModel | State Management |
+| RecyclerView | Dynamic Lists |
+| Material Design 3 | Modern UI Design |
 
 ---
 
 # 🏗 Architecture
 
-The project follows the **MVVM (Model-View-ViewModel)** architecture pattern.
+The application follows the **MVVM (Model-View-ViewModel)** architecture pattern.
 
 ```text
 UI Layer (Activities/Adapters)
@@ -155,42 +103,25 @@ app/src/main/java/com/gramakhata/app/
 ├── ui/
 │   ├── MainActivity.kt
 │   ├── SplashActivity.kt
->>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
 │   └── customers/
 │       ├── AddCustomerActivity.kt
 │       ├── CustomerDetailActivity.kt
 │       ├── CustomerAdapter.kt
 │       └── TransactionAdapter.kt
-<<<<<<< HEAD
-=======
 │
->>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
 └── viewmodel/
     └── KhataViewModel.kt
 ```
 
 ---
 
-<<<<<<< HEAD
-## 🛠 Tech Stack
-
-- **Language:** Kotlin
-- **Database:** Room DB (offline-first)
-- **Architecture:** MVVM + LiveData + ViewModel
-- **UI:** Material Design 3, CardView, RecyclerView
-- **Min SDK:** API 24 (Android 7.0)
-
----
-
-*Grama-Khata • April 2026 • Empowering Village Commerce Through Technology*
-=======
 # 📱 Screenshots
 
-> Add your screenshots inside `/screenshots` folder.
+> Store screenshots inside the `/screenshots` folder.
 
 | Dashboard | Customer Details | Transactions |
 |-----------|------------------|--------------|
-| ![](screenshots/dashboard.png) | ![](screenshots/customer.png) | ![](screenshots/transactions.png) |
+| ![](screenshots/dashboard.png) | ![](screenshots/customer.png) | ![](screenshots/transaction.png) |
 
 ---
 
@@ -200,7 +131,6 @@ app/src/main/java/com/gramakhata/app/
 
 - Android Studio Hedgehog or later
 - Android SDK API 24+
-- Gradle Installed
 - Java 17 Recommended
 
 ---
@@ -215,7 +145,7 @@ git clone https://github.com/DANI-SUNILKUMAR/MM-Grama-Khata.git
 
 ---
 
-### 2️⃣ Open in Android Studio
+### 2️⃣ Open Project
 
 - Open Android Studio
 - Click **Open Existing Project**
@@ -229,7 +159,7 @@ Wait for Android Studio to complete Gradle synchronization.
 
 ---
 
-### 4️⃣ Run the Application
+### 4️⃣ Run Application
 
 - Connect Android device OR start emulator
 - Click ▶ Run
@@ -238,7 +168,7 @@ Wait for Android Studio to complete Gradle synchronization.
 
 # 📦 APK Download
 
-> Add APK file inside `/apk` folder.
+Place APK inside:
 
 ```text
 apk/GramaKhata.apk
@@ -259,12 +189,12 @@ apk/GramaKhata.apk
 
 # 🧪 Testing
 
-The application was tested on:
+Tested on:
 - Android 7.0 (API 24)
 - Android 10
 - Android 13
 
-Tested functionalities:
+Verified functionalities:
 - CRUD operations
 - Database persistence
 - Transaction calculations
@@ -277,15 +207,15 @@ Tested functionalities:
 
 | Field | Details |
 |------|---------|
-| **Student Name** | Dani Sunilkumar Nagnath |
-| **USN** | 3DG22AD011 |
-| **Internship Company** | MindMatrix |
-| **Internship Duration** | 16 Weeks |
-| **Start Date** | 02/02/2026 |
-| **End Date** | 18/05/2026 |
-| **Internal Guide** | Prof. Renuka Devi |
-| **External Guide** | Tirumal Mutalikdesai |
-| **CEO** | Sujit Kumar |
+| Student Name | Dani Sunilkumar Nagnath |
+| USN | 3DG22AD011 |
+| Internship Company | MindMatrix |
+| Internship Duration | 16 Weeks |
+| Start Date | 02/02/2026 |
+| End Date | 18/05/2026 |
+| Internal Guide | Prof. Renuka Devi |
+| External Guide | Tirumal Mutalikdesai |
+| CEO | Sujit Kumar |
 
 ---
 
@@ -339,4 +269,3 @@ android kotlin room-database mvvm village-management grama-khata offline-app and
 <p align="center">
   <b>Grama-Khata • Empowering Village Commerce Through Technology 🚀</b>
 </p>
->>>>>>> 6d6059d4c566d92656c347fe9ee67b85fe7d8172
